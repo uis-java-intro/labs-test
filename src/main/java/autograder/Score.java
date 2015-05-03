@@ -91,6 +91,7 @@ public class Score {
 	
 	// PrintJSON will print JSON data representing this object to the output stream.  
 	public void PrintJSON(){
+		System.out.println();
 		System.out.println(this.toJSON());
 	}
 	
@@ -107,6 +108,7 @@ public class Score {
 	
 	// Print will print a summary of the score to the output stream.
 	public void Print(){
+		System.out.println();
 		System.out.println(this.toString());
 	}
 	
